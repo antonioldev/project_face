@@ -1,14 +1,18 @@
 
 #par_small:hover span {         /** Find on internet*/
-	display: block;
+    position:absolute;
+	display:flex;
 	width: 320px;
-	margin: 0px;
+    z-index:1;
+	margin: -50px;
+    margin-left: 40px;
 	padding: 10px;
 	color:black;
 	font-weight: normal;
 	background:white;
 	text-align: left;
     border: 1px solid #666;}
+
 span{display:none;}   
 
 .header{
