@@ -28,11 +28,12 @@ span{display:none;}
 }
 
 #logo{
-    top:10px;
-    left: 25%;
+    top:25px;
+    left: 20%;
     position: relative;
+    max-width: 100%;
     
-    width: 20%;
+    
 }
 #login{
     position: relative;
