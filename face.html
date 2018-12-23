@@ -8,35 +8,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
     <body>
+        <!--Start Head part -->
         <div class="header">
             <div id="logo" class="header"> 
-                <img src="logo2.jpg" alt="Facebook logo" width="187px" height="48px"/>
+                <img src="logo2.jpg" alt="Facebook logo"  />
             </div>
-            
-                <form id="login" method="post" action="">
-                    <div id="login_name">
+            <form id="login" method="post" action="" class="header">
+                <div id="login_name">
                         <label for="nameid">Email or Phone</label><br>
                         <input type="text" id="nameid" size="15" required/>
-                    </div>
-                    <div id="login_password">
+                </div>
+                <div id="login_password">
                         <label for="password_nameid">Password</label><br>                 
                         <input type="Password" id="password_nameid" size="15" required/><br>
                         <a href="forgot_password.html" target="_blank" id="forgotten">Forgotten account?</a>
-                    </div>
-                    <input type="submit" id ="button_login" is="submit" value="Log In" />
-                </form>
-            
+                </div>
+                <input type="submit" id ="button_login" is="submit" value="Log In" />
+            </form>
         </div>
+        <!--End Head part-->
+
+        <!--Start main part-->
         <div class="main">
+            <div id="main_left">
             <div id="slogan" class="main">
                 <p><b>Facebook helps you connect and share with the<br>people in your life.</b></p>
             </div>
             <div id="logo2" class="main">
                 <img src="connect_logo.png" alt="Facebook connect"/>
             </div>
+            </div>
             <div id="form_registration" class="main">
-                <div id="create_acc">Create an account</div>
-                <h3>It's free and always will be.</h3>
+                <div id="create_acc">Create an account</div><br>
+                <h3>It's free and always will be.</h3><br>
                 <form id="registration" method="post" action="">
                     <input type="text" class="registration_box" id="registration_name" placeholder=" First name" size="15" required />
                     <input type="text" class="registration_box" id="registration_surname" placeholder=" Surname" size="15" required />
@@ -158,6 +162,7 @@
                 </form>
             </div>
         </div>
+        <!--End main part-->
         <div class="footer">
             <div id="footer_extra">
             <br>
