@@ -1,12 +1,12 @@
 
 @media screen and (max-width: 800px) {
-    #logo, #slogan, #logo2 {
-        display: none;
+    #logoalter {
+        opacity:1;
     }
 }
 @media screen and (max-width: 800px) {
-    #logo_alternative{
-        visibility:visible; 
+     #slogan, #logo2, #logo {
+        display: none;
     }
 }
 
@@ -30,7 +30,8 @@
     }
 
     .header {
-        display: flex;
+        display: inline-flex;
+
         position: absolute;
         width: 100%;
         height: 83px;
@@ -51,29 +52,27 @@
         max-width: 100%;
         z-index: 1;
     }
-    #logo_alternative {
-        top: 25px;
-        left: 20%;
+    #logoalter {
+        top: 20px;
+        left: 1%;
         position: relative;
-        max-width: 100%;
-        visibility: hidden;
-        z-index:2;
-    }
+        z-index: 3;
+        
+}
 
     #login {
-        position: relative;
-        display: inline-flex !important;
-        float: left;
+        position:relative;
+        display: inline-flex;
+        float:right;
         flex-wrap: nowrap;
-        right: 15%;
-        left: 5%;
-        z-index: 2;
+        right:50%;
+        left:5%;
+        z-index: 1;
     }
 
     #login_name {
         position: relative;
-        float: left;
-        overflow: hidden;
+        float: left;       
         top: 27px;
         margin: 2px;
         font-size: 13px;
@@ -135,12 +134,11 @@
     }
 
     #slogan {
-        position: inherit;
-        float:right;
-        left:auto;
-        right:5%;
+        position: relative;
+        float:left;
+        left:40%;
         top: 5%;
-        width: 60%;
+        height:auto;
         color: #0e385f;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
@@ -149,15 +147,15 @@
     }
 
     #logo2 {
-        position: inherit;
-        float:right;
-        right:5%;
-        left:auto;
-        top:15%;
+        position: relative;
+        float:left;
+        left:37%;
+        top:auto;
         height: auto;
-        width: 60%;
+        width:auto;
         max-width: 100%;
         background: 0%;
+        z-index:1;
     }
 
     #create_acc {
@@ -171,12 +169,12 @@
         margin: 4px;
         border-radius: 5px;
         padding: 0cm;
-        flex-wrap: nowrap;
     }
 
     #form_registration {
         position: relative;
         display: block;
+        float:left;
         top: 5%;
         left: 20%;
     }
