@@ -1,11 +1,18 @@
 
 
 @media screen and (max-width: 800px) {
-    #form_registration {
-        left: 0%;
+    #form_registration {left:1% !important;
+                        top:1% !important;
     }
     #slogan, #logo2, #logo {display: none;}
-    
+}
+
+@media screen and (max-width: 1024px) {
+    #slogan, #logo2 {
+        left: 10% !important;
+    }
+    #form_registration {left:5% !important;}
+    }
 }
 
 
