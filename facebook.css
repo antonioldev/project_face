@@ -16,11 +16,13 @@
 }
 
 
-    #par_small:hover span {
+    span:hover + div#popup {
+        display:block;
+    }
+
+    #popup {
         position: absolute;
-        display: flex;
         width: 320px;
-        z-index: 1;
         margin: -50px;
         margin-left: 40px;
         padding: 10px;
@@ -29,10 +31,7 @@
         background: white;
         text-align: left;
         border: 1px solid #666;
-    }
-
-    span {
-        display: none;
+display:none;       
     }
 
     .header {
@@ -187,6 +186,9 @@
     }
 
     #par_small {
+        font-size: 12px;
+    }
+    #info {
         font-size: 12px;
     }
 
