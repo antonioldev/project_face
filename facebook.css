@@ -5,6 +5,11 @@
                         top:1% !important;
     }
     #slogan, #logo2, #logo {display: none;}
+    #registration_number_email, #registration_password {
+        width: 85%;
+    }
+    #registration_name, #registration_surname {width:40%;}
+    
 }
 
 @media screen and (max-width: 1024px) {
@@ -15,25 +20,30 @@
     }
 }
 
-
-    span:hover + div#popup {
-        display:block;
+    #policy{
+        display:inline-flex;
+        font-size:10px;
     }
 
-    #popup {
+    #alternative{
+        top:30px;
+    }
+
+    span {
+        font-size:12px;
         position: absolute;
-        width: 320px;
+        width: 300px;
         margin: -50px;
-        margin-left: 40px;
+        margin-left:-400px;
         padding: 10px;
         color: black;
         font-weight: normal;
         background: white;
         text-align: left;
         border: 1px solid #666;
-display:none;       
+        visibility:hidden;   
     }
-
+    a:hover span{visibility:visible;}
     .header {
         display: inline-flex;
         position: absolute;
@@ -184,12 +194,8 @@ display:none;
         top: 5%;
         left: 20%;
     }
-
-    #par_small {
-        font-size: 12px;
-    }
     #info {
-        font-size: 12px;
+        font-size:12px;
     }
 
     .birthday {
@@ -230,10 +236,8 @@ display:none;
         text-align: center;
     }
 
-    li {
-        display: inline;
-        margin: 12px;
-        line-height: 20px;
+    .f_style {
+        word-spacing:10px;
     }
 
     a {
